@@ -1,0 +1,1 @@
+for %%a in ("*.m4a") do ffmpeg -i "%%a" -b:a 192k -c:v copy "output\%%~na.m4a"
